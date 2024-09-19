@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Animation</title>
+      <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <main>
+     <a-scene background="color: #b5deff">
+        <a-entity position="-2 1.5 -10">
+         <a-entity scale="1 0 1" animation="property: scale; to:1 1 1; dur:2000;">
+           <a-cylinder position="0 2 0" radius="2" height="2" color="#953fe0" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to:1 0 1; dur:2000;"> 
+            
+           </a-cylinder>
+
+           <a-cylinder position="0 -2 0" radius="2" height="2" color="#2836a1" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to:1 0 1; dur:2000;"> 
+            
+           </a-cylinder>
+
+         </a-entity>
+
+         <a-entity scale="0.9 0.9 0.9" animation="property: scale; to:0.9 0.9 0.9; dur:2000;delay:200">
+           <a-cylinder position="0 2 0" radius="2" height="2" color="red" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to:1 0 1; dur:2000; delay:200"> 
+            
+           </a-cylinder>
+
+           <a-cylinder position="0 -2 0" radius="2" height="2" color="blue" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to:1 0 1; dur:2000; delay:200"> 
+            
+           </a-cylinder>
+
+         </a-entity>
+
+         <a-entity scale="0.8 0.8 0.8" animation="property: scale; to:0.8 0.8 0.8; dur:2000;delay:400">
+          <a-cylinder position="0 2 0" radius="2" height="2" color="green" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to:1 0 1; dur:2000; delay:400"> 
+           
+          </a-cylinder>
+
+          <a-cylinder position="0 -2 0" radius="2" height="2" color="yellow" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to:1 0 1; dur:2000; delay:400"> 
+           
+          </a-cylinder>
+
+        </a-entity>
+
+        <a-entity scale="0.7 0.7 0.7" animation="property: scale; to:0.7 0.7 0.7; dur:2000;delay:800">
+          <a-cylinder position="0 2 0" radius="2" height="2" color="pink" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to:1 0 1; dur:2000; delay:800"> 
+           
+          </a-cylinder>
+
+          <a-cylinder position="0 -2 0" radius="2" height="2" color="black" open-ended="true" side="double" scale="1 1.25 1" animation="property: scale; to:1 0 1; dur:2000; delay:800"> 
+           
+          </a-cylinder>
+
+        </a-entity>
+
+        </a-entity>
+     </a-scene>
+    </main>
+  </body>
+</html>
